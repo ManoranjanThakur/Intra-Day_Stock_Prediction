@@ -9,6 +9,7 @@ from keras.optimizers import SGD
 df = pd.read_csv("DataFrame.csv")
 df.head()
 
+
 print(df['Date'].dtype)
 
 data = df.filter(['close'])
